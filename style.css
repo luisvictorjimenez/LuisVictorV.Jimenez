@@ -1,0 +1,239 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: sticky;
+	top: 0;
+}
+.navbar ul{
+	display: flex;
+	list-style: none;
+	margin: 20px 0px;
+}
+.navbar ul li{
+	font-family: century;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 8px 25px;
+	transition: all .5s ease;
+}
+.navbar ul li a:hover{
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 10px white;
+}
+
+/* Home Section */
+#home{
+	display:  flex;
+	display-direction: column;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 840px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+#home::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url('img2.jpg') no-repeat center center/cover;
+	height: 900px;
+	width: 100%;
+	z-index: -1;
+	opacity: .8;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	/* border: 1px solid white; */
+	align-items: center;
+	position: absolute;
+	top: 30p%;
+	right: 10%;
+}
+.headings{
+	font-family: century;
+	font-size: 3rem;
+	text-align: center;
+	margin: 40px 0px;
+}
+.btn{
+	padding: 10px 35px;
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+	outline: none;
+	transition: .6s ease;
+}
+.btn:hover{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+	font-weight: bold;
+}
+
+/* 	About Section */
+#about{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: lightblue;
+	border-style: groove;
+	border-width: 5px;
+	border: black;
+	border-radius: 15px;
+}
+#pic{
+	display: flex;
+}
+#pic img{
+	width: 500px;
+	height: 350px;
+}
+#intro{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	padding: 10px;
+}
+#intro h2{
+	color: black;
+	font-size: 2.50rem;
+	margin-bottom: 20px;
+}
+p{
+	font-size: 1.50rem;
+}
+li{
+	font-size: 1.50rem;
+}
+/* Education Section */
+#education{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-bottom: 15px;
+	background-color: lightskyblue;
+	background-color: hotpink;
+	border-style: groove;
+	border-width: 5px;
+	border: black;
+	border-radius: 15px;
+}
+li{
+	font-size: 1.00rem;
+}
+/* Hobbies Section */
+#hobbies{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: lightsalmon;
+	border-style: groove;
+	border-width: 5px;
+	border: black;
+	border-radius: 15px;
+}
+li{
+	font-size: 1.50rem;
+}
+#hobbies video{
+	width: 400px;
+	height: 300px;
+	border: black;
+	border-width: 5px;
+	border-radius: 15px;
+	border-style: groove;
+}
+#hobbies img{
+	width: 400px;
+	height: 300px;
+	border: black;
+	border-width: 5px;
+	border-radius: 15px;
+	border-style: groove;
+}
+/* Work Experience Section*/
+#workexperience{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: blue;
+	border-style: groove;
+	border-width: 5px;
+	border: black;
+	border-radius: 15px;
+}
+/* Skills Section */
+#skills{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: paleturquoise;
+	border-style: groove;
+	border-width: 5px;
+	border: black;
+	border-radius: 15px;
+}
+#skills h1{
+	color: brown;
+}
+#intro{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	padding: 10px;
+}
+table{
+	width: 800px;
+	height: 300px;
+	background-color: orange;
+	font-size: 1.50rem;
+}
+/* Contact Section */
+#contacts{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: hotpink;
+	border-style: groove;
+	border-width: 5px;
+	border: black;
+	border-radius: 15px;
+}
+#contacts h1{
+	color: darkblue;
+	font-size: 3rem;
+}
+#contacts h2{
+	font-size: 1.50rem;
+}
+form{
+	font-size: 1.50rem;
+}
